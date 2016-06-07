@@ -1,9 +1,9 @@
 # ExFacebookMessenger
-[![Build Status](https://travis-ci.org/oarrabi/facebook_messenger.svg?branch=master)](https://travis-ci.org/oarrabi/facebook_messenger)
+[![Build Status](https://travis-ci.org/oarrabi/EXFacebook-Messenger.svg?branch=master)](https://travis-ci.org/oarrabi/EXFacebook-Messenger)
 [![Hex.pm](https://img.shields.io/hexpm/v/facebook_messenger.svg)](https://hex.pm/packages/facebook_messenger)
-[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](http://hexdocs.pm/facebook_messenger/)
-[![Coverage Status](https://coveralls.io/repos/github/oarrabi/facebook_messenger/badge.svg?branch=master)](https://coveralls.io/github/oarrabi/facebook_messenger?branch=master)
-[![Inline docs](http://inch-ci.org/github/oarrabi/facebook_messenger.svg?branch=master)](http://inch-ci.org/github/oarrabi/facebook_messenger)
+[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](http://hexdocs.pm/EXFacebook-Messenger/)
+[![Coverage Status](https://coveralls.io/repos/github/oarrabi/EXFacebook-Messenger/badge.svg?branch=master)](https://coveralls.io/github/oarrabi/EXFacebook-Messenger?branch=master)
+[![Inline docs](http://inch-ci.org/github/oarrabi/EXFacebook-Messenger.svg?branch=master)](http://inch-ci.org/github/oarrabi/EXFacebook-Messenger)
 
 ExFacebookMessenger is a library that helps you create facebook messenger bots easily.
 
@@ -11,7 +11,7 @@ ExFacebookMessenger is a library that helps you create facebook messenger bots e
 
 ```
 def deps do
-  [{:facebook_messenger, "~> 0.3.0"}]
+  [{:facebook_messenger, "~> 0.2.0"}]
 end
 ```
 
@@ -55,13 +55,11 @@ To get the `facebook_page_token` and `challenge_verification_token` follow the i
 
 For the webhook endpoint use `http://your-app-url/messenger/webhook`
 
-### With Phoenix
+### With Pheonix
 If you use phoenix framework in your project, then you need the phoenix version of `facebook_messenger` this can be found at `phoenix_facebook_messenger` [found here](https://github.com/oarrabi/phoenix_facebook_messenger).
 
 ## Sample
-
-- A sample facebook echo bot with plug can be found here. https://github.com/oarrabi/plug_facebook_echo_bot
-- For the phoenix echo bot, https://github.com/oarrabi/phoenix_facebook_echo_bot
+A sample facebook chat echo bot can be found [here](https://github.com/oarrabi/elixir-echo-bot).
 
 ## Future Improvements
 

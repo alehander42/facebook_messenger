@@ -4,8 +4,8 @@ defmodule FacebookMessenger.Mixfile do
   def project do
     [app: :facebook_messenger,
      name: "ExFacebookMessenger",
-     source_url: "https://github.com/oarrabi/facebook_messenger",
-     version: "0.3.0",
+     source_url: "https://github.com/alehander42/facebook_messenger",
+     version: "0.4.0",
      docs: [ extras: ["README.md"] ],
      elixir: "~> 1.0",
      build_embedded: Mix.env == :prod,
@@ -55,6 +55,6 @@ defmodule FacebookMessenger.Mixfile do
   defp package do
     [ files: [ "lib", "mix.exs", "README.md",],
       maintainers: [ "Omar Abdelhafith" ],
-      links: %{ "GitHub" => "https://github.com/oarrabi/facebook_messenger" } ]
+      links: %{ "GitHub" => "https://github.com/oarrabi/exrequester" } ]
   end
 end
